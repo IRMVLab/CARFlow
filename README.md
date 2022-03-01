@@ -1,6 +1,6 @@
 # **Residual 3D Scene Flow Learning with Context-Aware Feature Extraction**
 
-This is the official implementations of our [paper]([[2109.04685\] Residual 3D Scene Flow Learning with Context-Aware Feature Extraction (arxiv.org)](https://arxiv.org/abs/2109.04685)), an end-to-end deep network with context-aware feature extraction for scene flow estimation from point clouds created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
+This is the official implementations of our [paper](https://arxiv.org/abs/2109.04685), an end-to-end deep network with context-aware feature extraction for scene flow estimation from point clouds created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
 
 ![network](./images/network.jpg)
 
@@ -51,7 +51,7 @@ python3 data_preprocess/process_kitti.py RAW_DATA_PATH SAVE_PATH/KITTI_processed
 
 **Install pointnet2 library**
 
-Compile the furthest point sampling, grouping and gathering operation for PyTorch. We use operations from this [repo]([sshaoshuai/Pointnet2.PyTorch: A faster implementation of PointNet++ based on PyTorch. (github.com)](https://github.com/sshaoshuai/Pointnet2.PyTorch)).
+Compile the furthest point sampling, grouping and gathering operation for PyTorch. We use operations from this [repo](https://github.com/sshaoshuai/Pointnet2.PyTorch).
 
 ```
 cd pointnet2
@@ -87,11 +87,8 @@ python evaluate.py config_evaluate.yaml
 
 We thank the following open-source projects for the help of the implementations.
 
-+ [PointNet++]([charlesq34/pointnet2: PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (github.com)](https://github.com/charlesq34/pointnet2)) 
++ [PointNet++](https://github.com/charlesq34/pointnet2) 
 
-+ [HPLFlowNet]([laoreja/HPLFlowNet: Code for our CVPR 2019 paper, HPLFlowNet: Hierarchical Permutohedral Lattice FlowNet for Scene Flow Estimation on Large-scale Point Clouds. (github.com)](https://github.com/laoreja/HPLFlowNet)) 
++ [HALFlow](https://github.com/IRMVLab/HALFlow)
 
-+ [PointPWC-Net]([DylanWusee/PointPWC: PointPWC-Net is a deep coarse-to-fine network designed for 3D scene flow estimation from 3D point clouds. (github.com)](https://github.com/DylanWusee/PointPWC))
-
-  
-
++ [PointPWC-Net](https://github.com/DylanWusee/PointPWC)
