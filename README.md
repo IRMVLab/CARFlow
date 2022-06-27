@@ -1,6 +1,6 @@
 # **Residual 3D Scene Flow Learning with Context-Aware Feature Extraction** (IEEE Transactions on Instrumentation and Measurement)
 
-This is the official implementations of our TIM [paper](https://arxiv.org/abs/2109.04685), "Residual 3D Scene Flow Learning with Context-Aware Feature Extraction" created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
+This is the official implementations of our TIM 2022 [paper](https://arxiv.org/abs/2109.04685), "Residual 3D Scene Flow Learning with Context-Aware Feature Extraction" created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
 
 ![network](./images/network.jpg)
 
