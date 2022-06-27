@@ -1,6 +1,6 @@
-# **Residual 3D Scene Flow Learning with Context-Aware Feature Extraction**
+# **Residual 3D Scene Flow Learning with Context-Aware Feature Extraction** (IEEE Transactions on Instrumentation and Measurement)
 
-This is the official implementations of our [paper](https://arxiv.org/abs/2109.04685), an end-to-end deep network with context-aware feature extraction for scene flow estimation from point clouds created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
+This is the official implementations of our TIM [paper](https://arxiv.org/abs/2109.04685), "Residual 3D Scene Flow Learning with Context-Aware Feature Extraction" created by Guangming Wang, Yunzhe Hu, Xinrui Wu, and Hesheng Wang.  
 
 ![network](./images/network.jpg)
 
@@ -11,11 +11,14 @@ This is the official implementations of our [paper](https://arxiv.org/abs/2109.0
 If you find our work useful in your research, please cite:
 
 ```
-@article{wang2021residual,
-  title={Residual 3D Scene Flow Learning with Context-Aware Feature Extraction},
+@article{wang2022residual,
+  title={Residual 3-D Scene Flow Learning With Context-Aware Feature Extraction},
   author={Wang, Guangming and Hu, Yunzhe and Wu, Xinrui and Wang, Hesheng},
-  journal={arXiv preprint arXiv:2109.04685},
-  year={2021}
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={71},
+  pages={1--9},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
